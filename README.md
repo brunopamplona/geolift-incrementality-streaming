@@ -131,8 +131,11 @@ Based on iROAS estimates disaggregated by channel:
 ```
 geolift-incrementality-clarotv/
 │
-├── data/
-│   └── simulate_geo_data.py       # Synthetic data generator (DGP)
+├── data/                        # DADOS SINTÉTICOS
+│   ├── raw/                     # Dados originais (imutáveis)
+│   │   └── video+_media.csv     # Seu dataset sintético considerando campanhas de geo-lift
+│   ├── raw/                     # Dados originais (imutáveis)
+│   │   └── video+_organic.csv   # Seu dataset sintético consideranco apenas o crescimento organico da plataforma
 │
 ├── notebooks/
 │   ├── 01_parallel_trends.ipynb   # Pre-period validation
