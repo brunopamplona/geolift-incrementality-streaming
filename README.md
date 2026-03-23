@@ -11,7 +11,7 @@
 
 ## Business Problem
 
-Video+, a Brazilian ficticious subscription streaming platform (~1.2M MAU), ran a paid media campaign (YouTube + Meta) promoting its **Família plan (R$80/mo)** across selected Brazilian regions in Q3.
+Video+, a Brazilian ficticious subscription streaming platform (~1.2M MAU), ran a paid media campaign (YouTube + Meta + Google Ads) promoting its **Família plan (R$80/mo), Premiere (R$ 35/mo), Telecine (R$ 45/mo) and HBO (R$ 50/mo)** across selected Brazilian regions in Q3.
 
 The internal attribution model reported a **ROAS of 9.2x**.
 
@@ -19,7 +19,7 @@ The critical question this study addresses:
 
 > *How many of those subscriptions would have occurred even without the campaign? What is the true incremental return on ad spend?*
 
-Standard attribution models — including last-click and platform-reported conversions — systematically overstate media contribution by crediting organic demand to paid media. This study applies a **geo-based causal inference design** to isolate the true incremental effect.
+This study applies a Shapley MTA approach benchmarked against organic growth—unlike last-click attribution, which tends to overstate paid media contribution by attributing organic demand to paid touchpoints.
 
 ---
 
@@ -30,7 +30,7 @@ Standard attribution models — including last-click and platform-reported conve
 User-level holdout is theoretically ideal but operationally constrained in this context:
 
 - YouTube and Meta do not guarantee full exclusion of control users from ad exposure (ad spillover)
-- ClaroTV+ lacks programmatic control over per-user inventory allocation across platforms
+- Video+ lacks programmatic control over per-user inventory allocation across platforms
 - Geographic clustering of media buying makes region-level randomization more tractable
 
 **Geo-experiments use geographic regions (DMAs) as the unit of randomization.** Treated regions receive the campaign; control regions receive zero spend. The counterfactual for treated regions is estimated via Synthetic Control Method (SCM).
