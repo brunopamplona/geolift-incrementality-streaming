@@ -11,7 +11,7 @@
 
 ## Business Problem
 
-Video+, a Brazilian ficticious subscription streaming platform (~1.2M MAU), ran a paid media campaign (YouTube + Meta + Google Ads) promoting its **Família plan (R$80/mo), Premiere (R$ 35/mo), Telecine (R$ 45/mo) and HBO (R$ 50/mo)** across selected Brazilian regions in Q3.
+Video+, a Brazilian ficticious subscription streaming platform (~1.2M MAU), ran a paid media campaign (YouTube + Meta + Google Ads) promoting its **Família plan (R$80/mo), Premiere (R$ 69/mo), Telecine (R$ 55/mo) and HBO (R$ 35/mo)** across selected Brazilian regions in Q3.
 
 The internal attribution model reported a **ROAS of 9.2x**.
 
