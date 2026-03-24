@@ -1,4 +1,4 @@
-# geolift-incrementality-video+
+# geolift-incrementality-streaming
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -129,11 +129,11 @@ Based on iROAS estimates disaggregated by channel:
 ## Repository Structure
 
 ```
-geolift-incrementality-clarotv/
+geolift-incrementality-streaming/
 │
 ├── data/                                       # DADOS SINTÉTICOS
 │   ├── raw/                                    # Dados originais (imutáveis)
-│   │   └── video+_media_geo_lift_study.csv     # Seu dataset sintético considerando campanhas de geo-lift
+│   │   └── _media_geo_lift_study.csv     # Seu dataset sintético considerando campanhas de geo-lift
 │   ├── raw/                                    # Dados originais (imutáveis)
 │   │   └── video+_organic_geo_lift_study.csv   # Seu dataset sintético consideranco apenas o crescimento organico da plataforma
 │
@@ -160,8 +160,8 @@ geolift-incrementality-clarotv/
 ## How to Run
 
 ```bash
-git clone https://github.com/brunobgo/geolift-incrementality-clarotv.git
-cd geolift-incrementality-clarotv
+git clone https://github.com/brunobgo/geolift-incrementality-streaming.git
+cd geolift-incrementality-streaming
 pip install -r requirements.txt
 
 # Generate synthetic data
