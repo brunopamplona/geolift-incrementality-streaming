@@ -51,7 +51,7 @@ For Bayesian structural time-series estimation, the study also implements **Caus
 |---|---|
 | **Study period** | 8 weeks (4 pre / 4 during campaign) |
 | **Granularity** | State-level regions (DMA-equivalent) |
-| **Treated regions** | SP Interior, RS, PE |
+| **Treated regions** | SP, RJ, PR, RS, CE |
 | **Control regions** | MT, PA, RN, ES |
 | **Primary metric** | New Família plan subscriptions / week / region |
 | **Secondary metric** | Activation rate within 7 days of trial start |
